@@ -2,6 +2,7 @@ package com.lambton;
 
         import java.time.LocalDate;
         import java.time.Month;
+        import java.util.Arrays;
 
 public class StudentMainClass
 {
@@ -10,9 +11,9 @@ public class StudentMainClass
         Student[] listOfStudents = new Student[2];
 
         //First Student Object
-        LocalDate s1BirthDate =  LocalDate.of(1981, Month.FEBRUARY, 20);
-        Student s1 = new Student(1,"Charmi","Patel", s1BirthDate ,Gender.FEMALE,
-                new float[]{50.0f, 20.0f, 40, 70, 60});
+        LocalDate s1BirthDate =  LocalDate.of(1995, Month.JULY, 28);
+        Student s1 = new Student(1,"Adithya","sai", s1BirthDate ,Gender.MALE,
+                new float[]{50.0f, 100.0f, 40, 70, 60});
 
         listOfStudents[0] = s1;
 
@@ -33,5 +34,8 @@ public class StudentMainClass
             s.calculateResult();
             s.printData();
         }
+        Arithmetic arithmetic=new Arithmetic();
+        System.out.println(arithmetic.add(5,6));
+
     }
 }

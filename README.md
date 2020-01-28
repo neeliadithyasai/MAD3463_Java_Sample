@@ -1,7 +1,9 @@
 # MAD3463_Java_Sample
 
-## Adithya sai
+
+##Shree Marella
 
 ---
-Day 4
-#Date: friday, 24th january, 2020
+Day 4 
+
+# Date : Friday, 24th january, 2020
